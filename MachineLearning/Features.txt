@@ -1,0 +1,10 @@
+特征平滑：
+1、指数平滑
+2、贝叶斯平滑
+
+归一化方法：
+1、对数 x = log_a_(x)
+2、反余切 x = 2 * arctan(x) / PI
+3、Sigmoid  x = 1/(1+ e^(-x))
+4、标准化 x = (x-mu) / sigma
+5、最大最小 x = (x - min) / (max - min)
